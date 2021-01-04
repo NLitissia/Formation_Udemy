@@ -1,0 +1,40 @@
+/* All */
+
+* {
+    /*border: 2px solid #e4b3b3;*/
+    font-size: 20px;
+    font-family: cursive, Courier, serif;
+}
+
+
+/* Paragraphe */
+
+p {
+    /**color: #383131;**/
+    color: rgba(24, 24, 37, 0.685);
+    font-weight: bold;
+    text-align: center;
+}
+
+#section_titre p {
+    color: #b39090;
+}
+
+.competence {
+    color: #335e5b;
+}
+
+
+/*Pseudo class lien */
+
+a:link {
+    color: #335e5b;
+}
+
+a:visited {
+    color: #17e7d9;
+}
+
+a:hover {
+    color: #afd6d4;
+}
