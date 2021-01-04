@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- paragraphe, titre, Section -->
+    <section id="section_titre">
+        <h2 style="text-align: center;"> Paragraphe </h2>
+        <p style="font-size: 20px;color:blue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, obcaecati vero ex nesciunt repellendus dolorum beatae ratione iure consectetur, vitae delectus eligendi nobis incidunt amet? A ex eum maiores minima.
+        </p>
+    </section>
+    <!-- lien -->
+    <section id="section_lien">
+        <h3> Lien </h3>
+        <a href="#section_titre"> Vers Paragraphe </a>
+        <a href="https://www.google.com/" target="_blank"> Vers Google </a>
+    </section>
+    <!-- Image -->
+    <img src="images/image1.jpg" alt="MonImage">
+    <!-- liste -->
+    <h4> Montée en compétences </h4>
+    <ol>
+        <li>
+            HTML
+        </li>
+        <li>
+            CSS
+        </li>
+        <li>
+            PHP
+        </li>
+        <li>
+            JavaScript
+            <ul>
+                <li>
+                    JQuery
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            CMS
+            <li>
+                <ul>
+                    WordPress
+                </ul>
+            </li>
+        </li>
+        <li>
+            SQL
+        </li>
+        <li>
+            Symfony
+        </li>
+    </ol>
+    <!-- Div -->
+    <div style="background-color: #82a6c9;">
+        <h2>
+            Développeur Web
+        </h2>
+    </div>
+    <div style="background-color: #54779b;width: 400px; height:600px">
+        <p>
+            Modéle MVC
+        </p>
+    </div>
+    <div style="background-color: #2b5d8f;">
+        <h3>
+            Symfony
+        </h3>
+    </div>
+    <!-- Formulaire HTML-->
+    <form action="">
+        <label for="name"> Nom utilisateur </label>
+        <input type="text" name="name" id="name" placeholder="Votre Nom">
+        <label for="name">Email </label>
+        <input type="text" name="email" id="email" placeholder="Votre Email">
+        <label for="comment">Commentaire</label>
+        <textarea name="comment" id="" cols="50" rows="20"></textarea>
+        <input type="checkbox" value="velo"> Velo
+        <input type="checkbox" value="velo"> Voiture
+        <input type="checkbox" value="velo"> Transport en commun
+        <input type="radio" value="monsieur" name="sexe" checked> M
+        <input type="radio" value="madame" name="sexe"> Mme
+        <select name="langage" id="langage">
+            <option value="JAVA"> JAVA</option>
+            <option value="Python">Python</option>
+            <option value="C++"> C++</option>
+            <option value="C">C</option>
+            <option value="Perl">Perl</option>
+        </select>
+        <input type="submit" value="Valider">
+    </form>
+</body>
+
+</html>
